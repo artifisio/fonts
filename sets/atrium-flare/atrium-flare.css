@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Atrium Flare';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./atrium-flare-regular.woff2') format('woff2'),
+       url('./atrium-flare-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Atrium Flare';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./atrium-flare-bold.woff2') format('woff2'),
+       url('./atrium-flare-bold.otf') format('opentype');
+}

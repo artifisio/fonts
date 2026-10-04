@@ -1,0 +1,53 @@
+{
+  "slug": "quill-text",
+  "name": "Quill Text",
+  "description": "A humanist old-style text serif for book pages — diagonal stress, bracketed serifs, calligraphic entries.",
+  "tags": [
+    "serif",
+    "old-style",
+    "text"
+  ],
+  "count": 1,
+  "kind": "font",
+  "license": {
+    "spdx": "OFL-1.1",
+    "attributionRequired": true,
+    "attribution": "Fonts by Artifisio (https://artifisio.com)",
+    "url": "https://openfontlicense.org"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gemini-3.1-flash-image-preview"
+  },
+  "family": "Quill Text",
+  "scripts": [
+    "latin"
+  ],
+  "styles": [
+    {
+      "name": "Regular",
+      "weight": 400,
+      "files": {
+        "otf": {
+          "file": "quill-text-regular.otf",
+          "sha256": "fc71407b9041bf20f68fe433c19a22a7ba78c4aeb1325bbacada2acff67c9934",
+          "bytes": 42520
+        },
+        "woff2": {
+          "file": "quill-text-regular.woff2",
+          "sha256": "fec3f05eed4143f8333527e96f4db0c23508f37c060ce2a40bedf47dc839ad43",
+          "bytes": 24984
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascender": 780,
+    "descender": -220,
+    "capHeight": 687,
+    "xHeight": 547
+  },
+  "preview": "specimen.svg",
+  "css": "@font-face {\n  font-family: 'Quill Text';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./quill-text-regular.woff2') format('woff2'),\n       url('./quill-text-regular.otf') format('opentype');\n}\n"
+}

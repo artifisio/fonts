@@ -1,0 +1,69 @@
+{
+  "slug": "atrium-flare",
+  "name": "Atrium Flare",
+  "description": "A flared incised sans — stems swell into subtle concave flares instead of serifs, classical proportions.",
+  "tags": [
+    "sans",
+    "flare",
+    "display"
+  ],
+  "count": 2,
+  "kind": "font",
+  "license": {
+    "spdx": "OFL-1.1",
+    "attributionRequired": true,
+    "attribution": "Fonts by Artifisio (https://artifisio.com)",
+    "url": "https://openfontlicense.org"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gpt-image-2"
+  },
+  "family": "Atrium Flare",
+  "scripts": [
+    "latin"
+  ],
+  "styles": [
+    {
+      "name": "Regular",
+      "weight": 400,
+      "files": {
+        "otf": {
+          "file": "atrium-flare-regular.otf",
+          "sha256": "13e46ad3bea9d729cc26202f1914182aace9705fc5a11bdaad795d4839587410",
+          "bytes": 34196
+        },
+        "woff2": {
+          "file": "atrium-flare-regular.woff2",
+          "sha256": "321363e281031a8733a385323008c33231516ea27fc34c3238e0949173722a64",
+          "bytes": 21484
+        }
+      }
+    },
+    {
+      "name": "Bold",
+      "weight": 700,
+      "files": {
+        "otf": {
+          "file": "atrium-flare-bold.otf",
+          "sha256": "f40b47e36cf38bbf05ab6763b0d8a57da1ed373d2c3849a4b02d35c747987481",
+          "bytes": 38060
+        },
+        "woff2": {
+          "file": "atrium-flare-bold.woff2",
+          "sha256": "11980f958bfe23c3871f3d550f2734153bb9bb557da6d3bbc08a77b54c9c2c64",
+          "bytes": 23196
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascender": 780,
+    "descender": -220,
+    "capHeight": 682,
+    "xHeight": 483
+  },
+  "preview": "specimen.svg",
+  "css": "@font-face {\n  font-family: 'Atrium Flare';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./atrium-flare-regular.woff2') format('woff2'),\n       url('./atrium-flare-regular.otf') format('opentype');\n}\n\n@font-face {\n  font-family: 'Atrium Flare';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url('./atrium-flare-bold.woff2') format('woff2'),\n       url('./atrium-flare-bold.otf') format('opentype');\n}\n"
+}

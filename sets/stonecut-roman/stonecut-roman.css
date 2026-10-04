@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Stonecut Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./stonecut-roman-regular.woff2') format('woff2'),
+       url('./stonecut-roman-regular.otf') format('opentype');
+}

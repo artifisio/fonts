@@ -2,17 +2,29 @@
 
 > Free, open-licensed fonts (OFL-1.1) as plain files plus a versioned manifest. Install with the `artifisio` CLI or fetch files straight from the CDN. No account, no runtime dependency.
 
-- Manifest: https://raw.githubusercontent.com/artifisio/fonts/main/manifest.json (schemaVersion 2, registryVersion 2026.10.04-1747-3f7e2e4)
+- Manifest: https://raw.githubusercontent.com/artifisio/fonts/main/manifest.json (schemaVersion 2, registryVersion 2026.10.04-1822-ac0457a)
 - Registry index across kinds: https://raw.githubusercontent.com/artifisio/fonts/main/index.json
 - CDN file pattern: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/<set>/<file>
 - Install: `npx artifisio add <set> --kind font` (writes files + ATTRIBUTION.md)
 - Search: `npx artifisio search "<query>" --kind font --json`
 - License: LICENSE in this repo; attribution string is in every set's `license.attribution`.
 
-## Sets (1)
+## Sets (7)
 
 - [Multi Sans](https://github.com/artifisio/fonts/tree/main/sets/multi-sans): A condensed grotesque sans with tall, even letterforms. Basic Latin letters and figures (A–Z, a–z, 0–9); punctuation is not covered yet. (Multi Sans, Regular 400; scripts: latin)
+- [Circuit font](https://github.com/artifisio/fonts/tree/main/sets/circuit-font): A full alphabet set vector font in a glowing cyberpunk style. Letters formed by glowing blue and magenta neon tubes integrated with micro-circuit board lines and metallic connectors. Dark background, crisp high-contrast glowing edges, futuristic sci-fi typography, high resolution (Circuit font, Regular 400; scripts: latin)
+- [Atrium Flare](https://github.com/artifisio/fonts/tree/main/sets/atrium-flare): A flared incised sans — stems swell into subtle concave flares instead of serifs, classical proportions. (Atrium Flare, Regular 400/Bold 700; scripts: latin)
+- [Inkstick](https://github.com/artifisio/fonts/tree/main/sets/inkstick): An upright chisel-marker casual — broad downstrokes, rounded ends, steady baseline under a written hand. (Inkstick, Regular 400/Bold 700; scripts: latin)
+- [Fieldbook](https://github.com/artifisio/fonts/tree/main/sets/fieldbook): A humanist sans for wayfinding and long interface text — broad-nib skeletons, open apertures, calm even colour. (Fieldbook, Regular 400/Bold 700; scripts: latin)
+- [Quill Text](https://github.com/artifisio/fonts/tree/main/sets/quill-text): A humanist old-style text serif for book pages — diagonal stress, bracketed serifs, calligraphic entries. (Quill Text, Regular 400; scripts: latin)
+- [Stonecut Roman](https://github.com/artifisio/fonts/tree/main/sets/stonecut-roman): Inscriptional Roman capitals chiselled rather than written — knife-point wedge serifs on classical proportions. (Stonecut Roman, Regular 400; scripts: latin)
 
 ## Preview URLs
 
 - multi-sans: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/multi-sans/specimen.svg
+- circuit-font: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/circuit-font/specimen.svg
+- atrium-flare: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/atrium-flare/specimen.svg
+- inkstick: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/inkstick/specimen.svg
+- fieldbook: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/fieldbook/specimen.svg
+- quill-text: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/quill-text/specimen.svg
+- stonecut-roman: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/stonecut-roman/specimen.svg

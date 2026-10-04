@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Fieldbook';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./fieldbook-regular.woff2') format('woff2'),
+       url('./fieldbook-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Fieldbook';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./fieldbook-bold.woff2') format('woff2'),
+       url('./fieldbook-bold.otf') format('opentype');
+}

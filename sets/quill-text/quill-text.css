@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Quill Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./quill-text-regular.woff2') format('woff2'),
+       url('./quill-text-regular.otf') format('opentype');
+}

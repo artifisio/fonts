@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "registryVersion": "2026.10.04-1747-3f7e2e4",
+  "registryVersion": "2026.10.04-1822-ac0457a",
   "kind": "font",
   "sets": {
     "multi-sans": {
@@ -57,6 +57,368 @@
       },
       "preview": "specimen.svg",
       "css": "@font-face {\n  font-family: 'Multi Sans';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./multi-sans-regular.woff2') format('woff2'),\n       url('./multi-sans-regular.otf') format('opentype');\n}\n"
+    },
+    "circuit-font": {
+      "slug": "circuit-font",
+      "name": "Circuit font",
+      "description": "A full alphabet set vector font in a glowing cyberpunk style. Letters formed by glowing blue and magenta neon tubes integrated with micro-circuit board lines and metallic connectors. Dark background, crisp high-contrast glowing edges, futuristic sci-fi typography, high resolution",
+      "tags": [],
+      "count": 1,
+      "kind": "font",
+      "license": {
+        "spdx": "OFL-1.1",
+        "attributionRequired": true,
+        "attribution": "Fonts by Artifisio (https://artifisio.com)",
+        "url": "https://openfontlicense.org"
+      },
+      "provenance": {
+        "source": "generated",
+        "model": "gemini-3.1-flash-image-preview"
+      },
+      "family": "Circuit font",
+      "scripts": [
+        "latin"
+      ],
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": 400,
+          "files": {
+            "otf": {
+              "file": "circuit-font-regular.otf",
+              "sha256": "ffcbe7a499ee06f08e0b3392c338dac3b123c21fba15afeb6ec832cff7524f35",
+              "bytes": 39372
+            },
+            "woff2": {
+              "file": "circuit-font-regular.woff2",
+              "sha256": "fdcd95f737dcc8bd808cc7ec0b99fab1cb916489f440fd8bc3428daf7bdc5d65",
+              "bytes": 23908
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascender": 780,
+        "descender": -220,
+        "capHeight": 698,
+        "xHeight": 511
+      },
+      "preview": "specimen.svg",
+      "css": "@font-face {\n  font-family: 'Circuit font';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./circuit-font-regular.woff2') format('woff2'),\n       url('./circuit-font-regular.otf') format('opentype');\n}\n"
+    },
+    "atrium-flare": {
+      "slug": "atrium-flare",
+      "name": "Atrium Flare",
+      "description": "A flared incised sans — stems swell into subtle concave flares instead of serifs, classical proportions.",
+      "tags": [
+        "sans",
+        "flare",
+        "display"
+      ],
+      "count": 2,
+      "kind": "font",
+      "license": {
+        "spdx": "OFL-1.1",
+        "attributionRequired": true,
+        "attribution": "Fonts by Artifisio (https://artifisio.com)",
+        "url": "https://openfontlicense.org"
+      },
+      "provenance": {
+        "source": "generated",
+        "model": "gpt-image-2"
+      },
+      "family": "Atrium Flare",
+      "scripts": [
+        "latin"
+      ],
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": 400,
+          "files": {
+            "otf": {
+              "file": "atrium-flare-regular.otf",
+              "sha256": "13e46ad3bea9d729cc26202f1914182aace9705fc5a11bdaad795d4839587410",
+              "bytes": 34196
+            },
+            "woff2": {
+              "file": "atrium-flare-regular.woff2",
+              "sha256": "321363e281031a8733a385323008c33231516ea27fc34c3238e0949173722a64",
+              "bytes": 21484
+            }
+          }
+        },
+        {
+          "name": "Bold",
+          "weight": 700,
+          "files": {
+            "otf": {
+              "file": "atrium-flare-bold.otf",
+              "sha256": "f40b47e36cf38bbf05ab6763b0d8a57da1ed373d2c3849a4b02d35c747987481",
+              "bytes": 38060
+            },
+            "woff2": {
+              "file": "atrium-flare-bold.woff2",
+              "sha256": "11980f958bfe23c3871f3d550f2734153bb9bb557da6d3bbc08a77b54c9c2c64",
+              "bytes": 23196
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascender": 780,
+        "descender": -220,
+        "capHeight": 682,
+        "xHeight": 483
+      },
+      "preview": "specimen.svg",
+      "css": "@font-face {\n  font-family: 'Atrium Flare';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./atrium-flare-regular.woff2') format('woff2'),\n       url('./atrium-flare-regular.otf') format('opentype');\n}\n\n@font-face {\n  font-family: 'Atrium Flare';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url('./atrium-flare-bold.woff2') format('woff2'),\n       url('./atrium-flare-bold.otf') format('opentype');\n}\n"
+    },
+    "inkstick": {
+      "slug": "inkstick",
+      "name": "Inkstick",
+      "description": "An upright chisel-marker casual — broad downstrokes, rounded ends, steady baseline under a written hand.",
+      "tags": [
+        "handwritten",
+        "marker",
+        "casual"
+      ],
+      "count": 2,
+      "kind": "font",
+      "license": {
+        "spdx": "OFL-1.1",
+        "attributionRequired": true,
+        "attribution": "Fonts by Artifisio (https://artifisio.com)",
+        "url": "https://openfontlicense.org"
+      },
+      "provenance": {
+        "source": "generated",
+        "model": "gemini-3.1-flash-image-preview"
+      },
+      "family": "Inkstick",
+      "scripts": [
+        "latin"
+      ],
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": 400,
+          "files": {
+            "otf": {
+              "file": "inkstick-regular.otf",
+              "sha256": "5f826021f4338cfd5d90be6b0af7e4b3437a2c40573f353298f90f3063387722",
+              "bytes": 45560
+            },
+            "woff2": {
+              "file": "inkstick-regular.woff2",
+              "sha256": "b5d74c8f422bfa3a3053df29dff844edc1d26120ae856924698e867d7c1d63a4",
+              "bytes": 23552
+            }
+          }
+        },
+        {
+          "name": "Bold",
+          "weight": 700,
+          "files": {
+            "otf": {
+              "file": "inkstick-bold.otf",
+              "sha256": "7e4189eba83b31adb69f53b89d70992ae8255564888f78f2db0b1d4ad62c6f11",
+              "bytes": 40964
+            },
+            "woff2": {
+              "file": "inkstick-bold.woff2",
+              "sha256": "f28d672c1df18bd02f224e9f9e118687b7d6d4084ff7724a59e29dd7d9ce74a1",
+              "bytes": 21492
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascender": 780,
+        "descender": -220,
+        "capHeight": 695,
+        "xHeight": 542
+      },
+      "preview": "specimen.svg",
+      "css": "@font-face {\n  font-family: 'Inkstick';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./inkstick-regular.woff2') format('woff2'),\n       url('./inkstick-regular.otf') format('opentype');\n}\n\n@font-face {\n  font-family: 'Inkstick';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url('./inkstick-bold.woff2') format('woff2'),\n       url('./inkstick-bold.otf') format('opentype');\n}\n"
+    },
+    "fieldbook": {
+      "slug": "fieldbook",
+      "name": "Fieldbook",
+      "description": "A humanist sans for wayfinding and long interface text — broad-nib skeletons, open apertures, calm even colour.",
+      "tags": [
+        "sans",
+        "humanist",
+        "text"
+      ],
+      "count": 2,
+      "kind": "font",
+      "license": {
+        "spdx": "OFL-1.1",
+        "attributionRequired": true,
+        "attribution": "Fonts by Artifisio (https://artifisio.com)",
+        "url": "https://openfontlicense.org"
+      },
+      "provenance": {
+        "source": "generated",
+        "model": "gemini-3.1-flash-image-preview"
+      },
+      "family": "Fieldbook",
+      "scripts": [
+        "latin"
+      ],
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": 400,
+          "files": {
+            "otf": {
+              "file": "fieldbook-regular.otf",
+              "sha256": "a5b9da81eac9f7ae8a376c416b6335699457883045a985d9da784f190fd88501",
+              "bytes": 44196
+            },
+            "woff2": {
+              "file": "fieldbook-regular.woff2",
+              "sha256": "1c7f42864913368e28c555b00f9c210b7878d4ae292a45a768749bf8ac2f0bc9",
+              "bytes": 21468
+            }
+          }
+        },
+        {
+          "name": "Bold",
+          "weight": 700,
+          "files": {
+            "otf": {
+              "file": "fieldbook-bold.otf",
+              "sha256": "cdeba69f51731b83f9be8cd7f3dfe2f69293227df964fdcb1e965b23a5ff5bec",
+              "bytes": 44812
+            },
+            "woff2": {
+              "file": "fieldbook-bold.woff2",
+              "sha256": "976fa93c0f87f241c77432f9313002d94dce24ccba94f34cb22d6cb4e55e5359",
+              "bytes": 21532
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascender": 780,
+        "descender": -220,
+        "capHeight": 694,
+        "xHeight": 533
+      },
+      "preview": "specimen.svg",
+      "css": "@font-face {\n  font-family: 'Fieldbook';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./fieldbook-regular.woff2') format('woff2'),\n       url('./fieldbook-regular.otf') format('opentype');\n}\n\n@font-face {\n  font-family: 'Fieldbook';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url('./fieldbook-bold.woff2') format('woff2'),\n       url('./fieldbook-bold.otf') format('opentype');\n}\n"
+    },
+    "quill-text": {
+      "slug": "quill-text",
+      "name": "Quill Text",
+      "description": "A humanist old-style text serif for book pages — diagonal stress, bracketed serifs, calligraphic entries.",
+      "tags": [
+        "serif",
+        "old-style",
+        "text"
+      ],
+      "count": 1,
+      "kind": "font",
+      "license": {
+        "spdx": "OFL-1.1",
+        "attributionRequired": true,
+        "attribution": "Fonts by Artifisio (https://artifisio.com)",
+        "url": "https://openfontlicense.org"
+      },
+      "provenance": {
+        "source": "generated",
+        "model": "gemini-3.1-flash-image-preview"
+      },
+      "family": "Quill Text",
+      "scripts": [
+        "latin"
+      ],
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": 400,
+          "files": {
+            "otf": {
+              "file": "quill-text-regular.otf",
+              "sha256": "fc71407b9041bf20f68fe433c19a22a7ba78c4aeb1325bbacada2acff67c9934",
+              "bytes": 42520
+            },
+            "woff2": {
+              "file": "quill-text-regular.woff2",
+              "sha256": "fec3f05eed4143f8333527e96f4db0c23508f37c060ce2a40bedf47dc839ad43",
+              "bytes": 24984
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascender": 780,
+        "descender": -220,
+        "capHeight": 687,
+        "xHeight": 547
+      },
+      "preview": "specimen.svg",
+      "css": "@font-face {\n  font-family: 'Quill Text';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./quill-text-regular.woff2') format('woff2'),\n       url('./quill-text-regular.otf') format('opentype');\n}\n"
+    },
+    "stonecut-roman": {
+      "slug": "stonecut-roman",
+      "name": "Stonecut Roman",
+      "description": "Inscriptional Roman capitals chiselled rather than written — knife-point wedge serifs on classical proportions.",
+      "tags": [
+        "serif",
+        "inscriptional",
+        "classic"
+      ],
+      "count": 1,
+      "kind": "font",
+      "license": {
+        "spdx": "OFL-1.1",
+        "attributionRequired": true,
+        "attribution": "Fonts by Artifisio (https://artifisio.com)",
+        "url": "https://openfontlicense.org"
+      },
+      "provenance": {
+        "source": "generated",
+        "model": "gemini-3.1-flash-image-preview"
+      },
+      "family": "Stonecut Roman",
+      "scripts": [
+        "latin"
+      ],
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": 400,
+          "files": {
+            "otf": {
+              "file": "stonecut-roman-regular.otf",
+              "sha256": "1796d17f4369ecf084da62151148673a4f90ccdaf4b5d9dd4e65a4b9e745bbe3",
+              "bytes": 44672
+            },
+            "woff2": {
+              "file": "stonecut-roman-regular.woff2",
+              "sha256": "ff495ff83a5f2902c63442032008523d14257a925b43d07df21edce5ee089fa3",
+              "bytes": 24344
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascender": 780,
+        "descender": -220,
+        "capHeight": 687,
+        "xHeight": 523
+      },
+      "preview": "specimen.svg",
+      "css": "@font-face {\n  font-family: 'Stonecut Roman';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./stonecut-roman-regular.woff2') format('woff2'),\n       url('./stonecut-roman-regular.otf') format('opentype');\n}\n"
     }
   }
 }

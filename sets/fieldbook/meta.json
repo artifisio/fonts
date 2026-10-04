@@ -1,0 +1,69 @@
+{
+  "slug": "fieldbook",
+  "name": "Fieldbook",
+  "description": "A humanist sans for wayfinding and long interface text — broad-nib skeletons, open apertures, calm even colour.",
+  "tags": [
+    "sans",
+    "humanist",
+    "text"
+  ],
+  "count": 2,
+  "kind": "font",
+  "license": {
+    "spdx": "OFL-1.1",
+    "attributionRequired": true,
+    "attribution": "Fonts by Artifisio (https://artifisio.com)",
+    "url": "https://openfontlicense.org"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gemini-3.1-flash-image-preview"
+  },
+  "family": "Fieldbook",
+  "scripts": [
+    "latin"
+  ],
+  "styles": [
+    {
+      "name": "Regular",
+      "weight": 400,
+      "files": {
+        "otf": {
+          "file": "fieldbook-regular.otf",
+          "sha256": "a5b9da81eac9f7ae8a376c416b6335699457883045a985d9da784f190fd88501",
+          "bytes": 44196
+        },
+        "woff2": {
+          "file": "fieldbook-regular.woff2",
+          "sha256": "1c7f42864913368e28c555b00f9c210b7878d4ae292a45a768749bf8ac2f0bc9",
+          "bytes": 21468
+        }
+      }
+    },
+    {
+      "name": "Bold",
+      "weight": 700,
+      "files": {
+        "otf": {
+          "file": "fieldbook-bold.otf",
+          "sha256": "cdeba69f51731b83f9be8cd7f3dfe2f69293227df964fdcb1e965b23a5ff5bec",
+          "bytes": 44812
+        },
+        "woff2": {
+          "file": "fieldbook-bold.woff2",
+          "sha256": "976fa93c0f87f241c77432f9313002d94dce24ccba94f34cb22d6cb4e55e5359",
+          "bytes": 21532
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascender": 780,
+    "descender": -220,
+    "capHeight": 694,
+    "xHeight": 533
+  },
+  "preview": "specimen.svg",
+  "css": "@font-face {\n  font-family: 'Fieldbook';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./fieldbook-regular.woff2') format('woff2'),\n       url('./fieldbook-regular.otf') format('opentype');\n}\n\n@font-face {\n  font-family: 'Fieldbook';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url('./fieldbook-bold.woff2') format('woff2'),\n       url('./fieldbook-bold.otf') format('opentype');\n}\n"
+}

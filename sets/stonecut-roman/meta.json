@@ -1,0 +1,53 @@
+{
+  "slug": "stonecut-roman",
+  "name": "Stonecut Roman",
+  "description": "Inscriptional Roman capitals chiselled rather than written — knife-point wedge serifs on classical proportions.",
+  "tags": [
+    "serif",
+    "inscriptional",
+    "classic"
+  ],
+  "count": 1,
+  "kind": "font",
+  "license": {
+    "spdx": "OFL-1.1",
+    "attributionRequired": true,
+    "attribution": "Fonts by Artifisio (https://artifisio.com)",
+    "url": "https://openfontlicense.org"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gemini-3.1-flash-image-preview"
+  },
+  "family": "Stonecut Roman",
+  "scripts": [
+    "latin"
+  ],
+  "styles": [
+    {
+      "name": "Regular",
+      "weight": 400,
+      "files": {
+        "otf": {
+          "file": "stonecut-roman-regular.otf",
+          "sha256": "1796d17f4369ecf084da62151148673a4f90ccdaf4b5d9dd4e65a4b9e745bbe3",
+          "bytes": 44672
+        },
+        "woff2": {
+          "file": "stonecut-roman-regular.woff2",
+          "sha256": "ff495ff83a5f2902c63442032008523d14257a925b43d07df21edce5ee089fa3",
+          "bytes": 24344
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascender": 780,
+    "descender": -220,
+    "capHeight": 687,
+    "xHeight": 523
+  },
+  "preview": "specimen.svg",
+  "css": "@font-face {\n  font-family: 'Stonecut Roman';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./stonecut-roman-regular.woff2') format('woff2'),\n       url('./stonecut-roman-regular.otf') format('opentype');\n}\n"
+}

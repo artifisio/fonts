@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Inkstick';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./inkstick-regular.woff2') format('woff2'),
+       url('./inkstick-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Inkstick';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./inkstick-bold.woff2') format('woff2'),
+       url('./inkstick-bold.otf') format('opentype');
+}

@@ -36,15 +36,21 @@ Every set ships a stylesheet whose `src` URLs are relative, so linking it from t
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/multi-sans/multi-sans.css" />
 ```
 
-Pin to a registry release for reproducible builds: `https://cdn.jsdelivr.net/gh/artifisio/fonts@v2026.10.04-1747-3f7e2e4/sets/<set-slug>/<file>`.
+Pin to a registry release for reproducible builds: `https://cdn.jsdelivr.net/gh/artifisio/fonts@v2026.10.04-1822-ac0457a/sets/<set-slug>/<file>`.
 
 ---
 
-## Available families (1)
+## Available families (7)
 
 | Name | Slug | Styles | Scripts | Formats | Tags |
 | ---- | ---- | ------ | ------- | ------- | ---- |
 | [Multi Sans](sets/multi-sans) | `multi-sans` | Regular (400) | latin | otf, woff2 | sans, condensed, grotesque, display, headline |
+| [Circuit font](sets/circuit-font) | `circuit-font` | Regular (400) | latin | otf, woff2 |  |
+| [Atrium Flare](sets/atrium-flare) | `atrium-flare` | Regular (400), Bold (700) | latin | otf, woff2 | sans, flare, display |
+| [Inkstick](sets/inkstick) | `inkstick` | Regular (400), Bold (700) | latin | otf, woff2 | handwritten, marker, casual |
+| [Fieldbook](sets/fieldbook) | `fieldbook` | Regular (400), Bold (700) | latin | otf, woff2 | sans, humanist, text |
+| [Quill Text](sets/quill-text) | `quill-text` | Regular (400) | latin | otf, woff2 | serif, old-style, text |
+| [Stonecut Roman](sets/stonecut-roman) | `stonecut-roman` | Regular (400) | latin | otf, woff2 | serif, inscriptional, classic |
 
 Each set directory holds `meta.json` (family, styles, metrics, `@font-face` snippet, sha256 per file) next to the binaries.
 
@@ -60,7 +66,7 @@ All fonts here are licensed under the [SIL Open Font License 1.1](LICENSE) with 
 
 | Field | Value |
 | --- | --- |
-| Registry version | `2026.10.04-1747-3f7e2e4` |
+| Registry version | `2026.10.04-1822-ac0457a` |
 | CLI | [`artifisio`](https://www.npmjs.com/package/artifisio) |
 | License | [OFL 1.1](LICENSE) |
 | Other kinds | [`index.json`](index.json) lists every per-kind registry (illustrations, icons) |
