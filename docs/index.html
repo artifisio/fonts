@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artifisio Fonts Registry</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/multi-sans/multi-sans.css" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg: #0f0f11; --surface: #1a1a1f; --border: #2a2a33; --text: #e8e8f0; --text-muted: #7a7a8a; --accent: #7c6af7; font-family: system-ui, -apple-system, sans-serif; }
+    body { background: var(--bg); color: var(--text); min-height: 100dvh; }
+    a { color: var(--accent); text-decoration: none; }
+    header.page { padding: 2rem; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    header.page h1 { font-size: 1.25rem; font-weight: 600; }
+    header.page p { color: var(--text-muted); font-size: 0.875rem; margin-top: 0.25rem; }
+    .badge { background: var(--surface); border: 1px solid var(--border); border-radius: 9999px; padding: 0.25rem 0.75rem; font-size: 0.75rem; color: var(--text-muted); }
+    .search-bar { padding: 1.25rem 2rem; border-bottom: 1px solid var(--border); display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+    .search-bar input { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; color: var(--text); padding: 0.5rem 0.875rem; font-size: 0.875rem; width: 260px; outline: none; }
+    main { padding: 2rem; max-width: 1100px; margin: 0 auto; display: grid; gap: 1.5rem; }
+    .family { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem 1.5rem; }
+    .family h2 { font-size: 1rem; font-weight: 600; }
+    .family .meta { color: var(--text-muted); font-size: 0.75rem; margin-top: 0.25rem; }
+    .family header p { color: var(--text-muted); font-size: 0.85rem; margin-top: 0.5rem; }
+    .specimen { margin-top: 1.25rem; line-height: 1.4; word-break: break-word; }
+    .size-xl { font-size: 2.5rem; }
+    .size-md { font-size: 1.25rem; color: var(--text-muted); }
+    .cli-hint { margin-top: 1rem; font-size: 0.7rem; color: var(--text-muted); font-family: monospace; }
+    .no-results { text-align: center; color: var(--text-muted); padding: 4rem 2rem; }
+    footer { border-top: 1px solid var(--border); padding: 1.5rem 2rem; text-align: center; color: var(--text-muted); font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <header class="page">
+    <div>
+      <h1>Artifisio Fonts</h1>
+      <p>Open-source registry · <strong>1 families</strong> · SIL OFL 1.1</p>
+    </div>
+    <div style="display:flex;gap:0.75rem;align-items:center;flex-wrap:wrap">
+      <span class="badge">v2026.10.04-1405-0aa34af</span>
+      <a href="https://artifisio.com" class="badge">artifisio.com ↗</a>
+      <a href="https://www.npmjs.com/package/artifisio" class="badge">artifisio ↗</a>
+    </div>
+  </header>
+  <div class="search-bar">
+    <input type="search" id="search" placeholder="Search families…" autocomplete="off" />
+  </div>
+  <main id="families">
+    <section class="family" data-name="multi sans" data-tags="sans condensed grotesque display headline">
+      <header>
+        <h2>Multi Sans</h2>
+        <div class="meta">Regular (400) · latin · otf, woff2</div>
+        <p>A condensed grotesque sans with tall, even letterforms. Basic Latin letters and figures (A–Z, a–z, 0–9); punctuation is not covered yet.</p>
+      </header>
+      <p class="specimen" style="font-family: 'Multi Sans'; font-weight: 400; font-style: normal">
+        <span class="size-xl">Sphinx of black quartz, judge my vow</span><br />
+        <span class="size-md">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789</span>
+      </p>
+      <div class="cli-hint">npx artifisio add multi-sans --kind font</div>
+    </section>
+  </main>
+  <footer>
+    Fonts by <a href="https://artifisio.com">Artifisio</a> · Registry version <code>2026.10.04-1405-0aa34af</code> · <a href="../LICENSE">License</a>
+  </footer>
+  <script>
+    const input = document.getElementById('search')
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLowerCase()
+      for (const el of document.querySelectorAll('.family')) {
+        el.style.display = !q || el.dataset.name.includes(q) || el.dataset.tags.includes(q) ? '' : 'none'
+      }
+    })
+  </script>
+</body>
+</html>

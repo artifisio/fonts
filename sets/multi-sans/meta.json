@@ -1,0 +1,55 @@
+{
+  "slug": "multi-sans",
+  "name": "Multi Sans",
+  "description": "A condensed grotesque sans with tall, even letterforms. Basic Latin letters and figures (A–Z, a–z, 0–9); punctuation is not covered yet.",
+  "tags": [
+    "sans",
+    "condensed",
+    "grotesque",
+    "display",
+    "headline"
+  ],
+  "count": 1,
+  "kind": "font",
+  "license": {
+    "spdx": "OFL-1.1",
+    "attributionRequired": true,
+    "attribution": "Fonts by Artifisio (https://artifisio.com)",
+    "url": "https://openfontlicense.org"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gemini-3.1-flash-image-preview"
+  },
+  "family": "Multi Sans",
+  "scripts": [
+    "latin"
+  ],
+  "styles": [
+    {
+      "name": "Regular",
+      "weight": 400,
+      "files": {
+        "otf": {
+          "file": "multi-sans-regular.otf",
+          "sha256": "9b27df986fd8def857cffec8649cf6dacca8f658412bb1d7ceb4b38900fa3a1c",
+          "bytes": 127552
+        },
+        "woff2": {
+          "file": "multi-sans-regular.woff2",
+          "sha256": "e626b4231e4ebef21c67a2d912c7347482e1fa681fd471bea4a6bc443c015f38",
+          "bytes": 22320
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascender": 780,
+    "descender": -220,
+    "capHeight": 697,
+    "xHeight": 523
+  },
+  "preview": "specimen.svg",
+  "css": "@font-face {\n  font-family: 'Multi Sans';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./multi-sans-regular.woff2') format('woff2'),\n       url('./multi-sans-regular.otf') format('opentype');\n}\n"
+}

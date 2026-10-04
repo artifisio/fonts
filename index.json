@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "kinds": {
+    "illustration": {
+      "repo": "artifisio/illustrations",
+      "manifest": "https://raw.githubusercontent.com/artifisio/illustrations/main/manifest.json",
+      "cdn": "https://cdn.jsdelivr.net/gh/artifisio/illustrations@main"
+    },
+    "icon": {
+      "repo": "artifisio/icons",
+      "manifest": "https://raw.githubusercontent.com/artifisio/icons/main/manifest.json",
+      "cdn": "https://cdn.jsdelivr.net/gh/artifisio/icons@main"
+    },
+    "font": {
+      "repo": "artifisio/fonts",
+      "manifest": "https://raw.githubusercontent.com/artifisio/fonts/main/manifest.json",
+      "cdn": "https://cdn.jsdelivr.net/gh/artifisio/fonts@main",
+      "registryVersion": "2026.10.04-1405-0aa34af",
+      "sets": 1
+    }
+  }
+}

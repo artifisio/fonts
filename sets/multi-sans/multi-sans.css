@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Multi Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./multi-sans-regular.woff2') format('woff2'),
+       url('./multi-sans-regular.otf') format('opentype');
+}

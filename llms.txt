@@ -1,0 +1,18 @@
+# Artifisio fonts registry
+
+> Free, open-licensed fonts (OFL-1.1) as plain files plus a versioned manifest. Install with the `artifisio` CLI or fetch files straight from the CDN. No account, no runtime dependency.
+
+- Manifest: https://raw.githubusercontent.com/artifisio/fonts/main/manifest.json (schemaVersion 2, registryVersion 2026.10.04-1405-0aa34af)
+- Registry index across kinds: https://raw.githubusercontent.com/artifisio/fonts/main/index.json
+- CDN file pattern: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/<set>/<file>
+- Install: `npx artifisio add <set> --kind font` (writes files + ATTRIBUTION.md)
+- Search: `npx artifisio search "<query>" --kind font --json`
+- License: LICENSE in this repo; attribution string is in every set's `license.attribution`.
+
+## Sets (1)
+
+- [Multi Sans](https://github.com/artifisio/fonts/tree/main/sets/multi-sans): A condensed grotesque sans with tall, even letterforms. Basic Latin letters and figures (A–Z, a–z, 0–9); punctuation is not covered yet. (Multi Sans, Regular 400; scripts: latin)
+
+## Preview URLs
+
+- multi-sans: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/multi-sans/specimen.svg
