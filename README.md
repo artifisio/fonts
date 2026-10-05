@@ -36,7 +36,7 @@ Every set ships a stylesheet whose `src` URLs are relative, so linking it from t
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/multi-sans/multi-sans.css" />
 ```
 
-Pin to a registry release for reproducible builds: `https://cdn.jsdelivr.net/gh/artifisio/fonts@v2026.10.04-1822-ac0457a/sets/<set-slug>/<file>`.
+Pin to a registry release for reproducible builds: `https://cdn.jsdelivr.net/gh/artifisio/fonts@v2026.10.05-1121-cbf8220/sets/<set-slug>/<file>`.
 
 ---
 
@@ -66,7 +66,7 @@ All fonts here are licensed under the [SIL Open Font License 1.1](LICENSE) with 
 
 | Field | Value |
 | --- | --- |
-| Registry version | `2026.10.04-1822-ac0457a` |
+| Registry version | `2026.10.05-1121-cbf8220` |
 | CLI | [`artifisio`](https://www.npmjs.com/package/artifisio) |
 | License | [OFL 1.1](LICENSE) |
 | Other kinds | [`index.json`](index.json) lists every per-kind registry (illustrations, icons) |
