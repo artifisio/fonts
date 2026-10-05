@@ -1,0 +1,53 @@
+{
+  "slug": "ironfraktur",
+  "name": "Ironfraktur",
+  "description": "A brutalist blackletter cut from steel plate — a fraktur skeleton rebuilt in heavy slabs and sharp 45° cuts.",
+  "tags": [
+    "blackletter",
+    "display",
+    "brutalist"
+  ],
+  "count": 1,
+  "kind": "font",
+  "license": {
+    "spdx": "OFL-1.1",
+    "attributionRequired": true,
+    "attribution": "Fonts by Artifisio (https://artifisio.com)",
+    "url": "https://openfontlicense.org"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gemini-3.1-flash-image-preview"
+  },
+  "family": "Ironfraktur",
+  "scripts": [
+    "latin"
+  ],
+  "styles": [
+    {
+      "name": "Regular",
+      "weight": 400,
+      "files": {
+        "otf": {
+          "file": "ironfraktur-regular.otf",
+          "sha256": "4fb9111d0ff5dd202d3ac71fe1fd0ada043ddae1af592b61840d0ac1b768eacb",
+          "bytes": 30144
+        },
+        "woff2": {
+          "file": "ironfraktur-regular.woff2",
+          "sha256": "fe87fb5e1ee06f0159424192e92910a0919bd1f1b3d2af23b8a114db5277f6f9",
+          "bytes": 16680
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascender": 780,
+    "descender": -220,
+    "capHeight": 679,
+    "xHeight": 566
+  },
+  "preview": "specimen.svg",
+  "css": "@font-face {\n  font-family: 'Ironfraktur';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./ironfraktur-regular.woff2') format('woff2'),\n       url('./ironfraktur-regular.otf') format('opentype');\n}\n"
+}

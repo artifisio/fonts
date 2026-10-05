@@ -2,16 +2,22 @@
 
 > Free, open-licensed fonts (OFL-1.1) as plain files plus a versioned manifest. Install with the `artifisio` CLI or fetch files straight from the CDN. No account, no runtime dependency.
 
-- Manifest: https://raw.githubusercontent.com/artifisio/fonts/main/manifest.json (schemaVersion 2, registryVersion 2026.10.05-1121-cbf8220)
+- Manifest: https://raw.githubusercontent.com/artifisio/fonts/main/manifest.json (schemaVersion 2, registryVersion 2026.10.05-1736-cbf8220)
 - Registry index across kinds: https://raw.githubusercontent.com/artifisio/fonts/main/index.json
 - CDN file pattern: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/<set>/<file>
 - Install: `npx artifisio add <set> --kind font` (writes files + ATTRIBUTION.md)
 - Search: `npx artifisio search "<query>" --kind font --json`
 - License: LICENSE in this repo; attribution string is in every set's `license.attribution`.
 
-## Sets (7)
+## Sets (13)
 
 - [Multi Sans](https://github.com/artifisio/fonts/tree/main/sets/multi-sans): A condensed grotesque sans with tall, even letterforms. Basic Latin letters and figures (A–Z, a–z, 0–9); punctuation is not covered yet. (Multi Sans, Regular 400; scripts: latin)
+- [Kreisform](https://github.com/artifisio/fonts/tree/main/sets/kreisform): A Bauhaus modular display face — every letter built from circles, half and quarter circles, and thick rectangles of one stroke. (Kreisform, Regular 400; scripts: latin)
+- [Prism Cut](https://github.com/artifisio/fonts/tree/main/sets/prism-cut): A faceted low-poly display face — no curves, polygonal bowls, shard terminals, heavy solid silhouettes. (Prism Cut, Regular 400; scripts: latin)
+- [Ivywork](https://github.com/artifisio/fonts/tree/main/sets/ivywork): A botanical Art Nouveau display serif — vine-like stems, terminals curling into tendrils and single leaves. (Ivywork, Regular 400; scripts: latin)
+- [Ironfraktur](https://github.com/artifisio/fonts/tree/main/sets/ironfraktur): A brutalist blackletter cut from steel plate — a fraktur skeleton rebuilt in heavy slabs and sharp 45° cuts. (Ironfraktur, Regular 400; scripts: latin)
+- [Asteria](https://github.com/artifisio/fonts/tree/main/sets/asteria): A geometric sans built from circles and straight lines — single-storey a and g, pointed apexes, even monoline strokes. (Asteria, Regular 400; scripts: latin)
+- [Vellum Display](https://github.com/artifisio/fonts/tree/main/sets/vellum-display): A high-contrast Didone display serif for editorial headlines — razor hairlines, flat unbracketed serifs, ball terminals. (Vellum Display, Regular 400; scripts: latin)
 - [Circuit font](https://github.com/artifisio/fonts/tree/main/sets/circuit-font): A full alphabet set vector font in a glowing cyberpunk style. Letters formed by glowing blue and magenta neon tubes integrated with micro-circuit board lines and metallic connectors. Dark background, crisp high-contrast glowing edges, futuristic sci-fi typography, high resolution (Circuit font, Regular 400; scripts: latin)
 - [Atrium Flare](https://github.com/artifisio/fonts/tree/main/sets/atrium-flare): A flared incised sans — stems swell into subtle concave flares instead of serifs, classical proportions. (Atrium Flare, Regular 400/Bold 700; scripts: latin)
 - [Inkstick](https://github.com/artifisio/fonts/tree/main/sets/inkstick): An upright chisel-marker casual — broad downstrokes, rounded ends, steady baseline under a written hand. (Inkstick, Regular 400/Bold 700; scripts: latin)
@@ -22,6 +28,12 @@
 ## Preview URLs
 
 - multi-sans: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/multi-sans/specimen.svg
+- kreisform: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/kreisform/specimen.svg
+- prism-cut: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/prism-cut/specimen.svg
+- ivywork: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/ivywork/specimen.svg
+- ironfraktur: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/ironfraktur/specimen.svg
+- asteria: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/asteria/specimen.svg
+- vellum-display: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/vellum-display/specimen.svg
 - circuit-font: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/circuit-font/specimen.svg
 - atrium-flare: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/atrium-flare/specimen.svg
 - inkstick: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/inkstick/specimen.svg

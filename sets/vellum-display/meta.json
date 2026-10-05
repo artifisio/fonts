@@ -1,0 +1,53 @@
+{
+  "slug": "vellum-display",
+  "name": "Vellum Display",
+  "description": "A high-contrast Didone display serif for editorial headlines — razor hairlines, flat unbracketed serifs, ball terminals.",
+  "tags": [
+    "serif",
+    "didone",
+    "display"
+  ],
+  "count": 1,
+  "kind": "font",
+  "license": {
+    "spdx": "OFL-1.1",
+    "attributionRequired": true,
+    "attribution": "Fonts by Artifisio (https://artifisio.com)",
+    "url": "https://openfontlicense.org"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gpt-image-2.5-flare"
+  },
+  "family": "Vellum Display",
+  "scripts": [
+    "latin"
+  ],
+  "styles": [
+    {
+      "name": "Regular",
+      "weight": 400,
+      "files": {
+        "otf": {
+          "file": "vellum-display-regular.otf",
+          "sha256": "9ef5229ee58510a6520c53ef253ab3f1f13a1376b57045b0b4243df4aa468a65",
+          "bytes": 50608
+        },
+        "woff2": {
+          "file": "vellum-display-regular.woff2",
+          "sha256": "ba6958f2e5138d5a46ecfd21c91cc997c8ffb222fb36482733d969675c12bd85",
+          "bytes": 27184
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascender": 780,
+    "descender": -220,
+    "capHeight": 691,
+    "xHeight": 533
+  },
+  "preview": "specimen.svg",
+  "css": "@font-face {\n  font-family: 'Vellum Display';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./vellum-display-regular.woff2') format('woff2'),\n       url('./vellum-display-regular.otf') format('opentype');\n}\n"
+}

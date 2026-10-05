@@ -1,0 +1,53 @@
+{
+  "slug": "prism-cut",
+  "name": "Prism Cut",
+  "description": "A faceted low-poly display face — no curves, polygonal bowls, shard terminals, heavy solid silhouettes.",
+  "tags": [
+    "display",
+    "geometric",
+    "faceted"
+  ],
+  "count": 1,
+  "kind": "font",
+  "license": {
+    "spdx": "OFL-1.1",
+    "attributionRequired": true,
+    "attribution": "Fonts by Artifisio (https://artifisio.com)",
+    "url": "https://openfontlicense.org"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gemini-3.1-flash-image-preview"
+  },
+  "family": "Prism Cut",
+  "scripts": [
+    "latin"
+  ],
+  "styles": [
+    {
+      "name": "Regular",
+      "weight": 400,
+      "files": {
+        "otf": {
+          "file": "prism-cut-regular.otf",
+          "sha256": "5d3bf1e20d785882455d30eb4123753fdc3140044ae236c139162cdcb1d75ac5",
+          "bytes": 37012
+        },
+        "woff2": {
+          "file": "prism-cut-regular.woff2",
+          "sha256": "ab2d981e6b6daf32385531bf94bcc646dbe263ce51b7a05f66978ef7b9d0b4ce",
+          "bytes": 18264
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascender": 780,
+    "descender": -220,
+    "capHeight": 707,
+    "xHeight": 496
+  },
+  "preview": "specimen.svg",
+  "css": "@font-face {\n  font-family: 'Prism Cut';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./prism-cut-regular.woff2') format('woff2'),\n       url('./prism-cut-regular.otf') format('opentype');\n}\n"
+}

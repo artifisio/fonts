@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Prism Cut';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./prism-cut-regular.woff2') format('woff2'),
+       url('./prism-cut-regular.otf') format('opentype');
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "kreisform",
+  "name": "Kreisform",
+  "description": "A Bauhaus modular display face — every letter built from circles, half and quarter circles, and thick rectangles of one stroke.",
+  "tags": [
+    "display",
+    "bauhaus",
+    "geometric"
+  ],
+  "count": 1,
+  "kind": "font",
+  "license": {
+    "spdx": "OFL-1.1",
+    "attributionRequired": true,
+    "attribution": "Fonts by Artifisio (https://artifisio.com)",
+    "url": "https://openfontlicense.org"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gpt-image-2.5-flare"
+  },
+  "family": "Kreisform",
+  "scripts": [
+    "latin"
+  ],
+  "styles": [
+    {
+      "name": "Regular",
+      "weight": 400,
+      "files": {
+        "otf": {
+          "file": "kreisform-regular.otf",
+          "sha256": "520ae0760200e6ad05e71f8429c71701e6f0c9aad7d7bd76ea1e60dd7189dd64",
+          "bytes": 28988
+        },
+        "woff2": {
+          "file": "kreisform-regular.woff2",
+          "sha256": "f5f186e42ac37253f84b2104d0e77b88837109c20661e33cb5c15b73307c4dfc",
+          "bytes": 17288
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascender": 780,
+    "descender": -220,
+    "capHeight": 683,
+    "xHeight": 598
+  },
+  "preview": "specimen.svg",
+  "css": "@font-face {\n  font-family: 'Kreisform';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./kreisform-regular.woff2') format('woff2'),\n       url('./kreisform-regular.otf') format('opentype');\n}\n"
+}

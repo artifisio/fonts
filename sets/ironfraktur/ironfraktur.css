@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Ironfraktur';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./ironfraktur-regular.woff2') format('woff2'),
+       url('./ironfraktur-regular.otf') format('opentype');
+}

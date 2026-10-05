@@ -1,0 +1,53 @@
+{
+  "slug": "ivywork",
+  "name": "Ivywork",
+  "description": "A botanical Art Nouveau display serif — vine-like stems, terminals curling into tendrils and single leaves.",
+  "tags": [
+    "display",
+    "art-nouveau",
+    "botanical"
+  ],
+  "count": 1,
+  "kind": "font",
+  "license": {
+    "spdx": "OFL-1.1",
+    "attributionRequired": true,
+    "attribution": "Fonts by Artifisio (https://artifisio.com)",
+    "url": "https://openfontlicense.org"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gpt-image-2.5-flare"
+  },
+  "family": "Ivywork",
+  "scripts": [
+    "latin"
+  ],
+  "styles": [
+    {
+      "name": "Regular",
+      "weight": 400,
+      "files": {
+        "otf": {
+          "file": "ivywork-regular.otf",
+          "sha256": "7111878888f71c71ff5989cf1f4f42d6a7e85d77f662b311a6d63dccb39a8abc",
+          "bytes": 81576
+        },
+        "woff2": {
+          "file": "ivywork-regular.woff2",
+          "sha256": "5c23556f7062305c12901e044bba8b651bc73c7bd4826285992367b26e8a8580",
+          "bytes": 43124
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascender": 780,
+    "descender": -220,
+    "capHeight": 703,
+    "xHeight": 498
+  },
+  "preview": "specimen.svg",
+  "css": "@font-face {\n  font-family: 'Ivywork';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./ivywork-regular.woff2') format('woff2'),\n       url('./ivywork-regular.otf') format('opentype');\n}\n"
+}

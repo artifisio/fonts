@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "registryVersion": "2026.10.05-1121-cbf8220",
+  "registryVersion": "2026.10.05-1736-cbf8220",
   "kind": "font",
   "sets": {
     "multi-sans": {
@@ -57,6 +57,324 @@
       },
       "preview": "specimen.svg",
       "css": "@font-face {\n  font-family: 'Multi Sans';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./multi-sans-regular.woff2') format('woff2'),\n       url('./multi-sans-regular.otf') format('opentype');\n}\n"
+    },
+    "kreisform": {
+      "slug": "kreisform",
+      "name": "Kreisform",
+      "description": "A Bauhaus modular display face — every letter built from circles, half and quarter circles, and thick rectangles of one stroke.",
+      "tags": [
+        "display",
+        "bauhaus",
+        "geometric"
+      ],
+      "count": 1,
+      "kind": "font",
+      "license": {
+        "spdx": "OFL-1.1",
+        "attributionRequired": true,
+        "attribution": "Fonts by Artifisio (https://artifisio.com)",
+        "url": "https://openfontlicense.org"
+      },
+      "provenance": {
+        "source": "generated",
+        "model": "gpt-image-2.5-flare"
+      },
+      "family": "Kreisform",
+      "scripts": [
+        "latin"
+      ],
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": 400,
+          "files": {
+            "otf": {
+              "file": "kreisform-regular.otf",
+              "sha256": "520ae0760200e6ad05e71f8429c71701e6f0c9aad7d7bd76ea1e60dd7189dd64",
+              "bytes": 28988
+            },
+            "woff2": {
+              "file": "kreisform-regular.woff2",
+              "sha256": "f5f186e42ac37253f84b2104d0e77b88837109c20661e33cb5c15b73307c4dfc",
+              "bytes": 17288
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascender": 780,
+        "descender": -220,
+        "capHeight": 683,
+        "xHeight": 598
+      },
+      "preview": "specimen.svg",
+      "css": "@font-face {\n  font-family: 'Kreisform';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./kreisform-regular.woff2') format('woff2'),\n       url('./kreisform-regular.otf') format('opentype');\n}\n"
+    },
+    "prism-cut": {
+      "slug": "prism-cut",
+      "name": "Prism Cut",
+      "description": "A faceted low-poly display face — no curves, polygonal bowls, shard terminals, heavy solid silhouettes.",
+      "tags": [
+        "display",
+        "geometric",
+        "faceted"
+      ],
+      "count": 1,
+      "kind": "font",
+      "license": {
+        "spdx": "OFL-1.1",
+        "attributionRequired": true,
+        "attribution": "Fonts by Artifisio (https://artifisio.com)",
+        "url": "https://openfontlicense.org"
+      },
+      "provenance": {
+        "source": "generated",
+        "model": "gemini-3.1-flash-image-preview"
+      },
+      "family": "Prism Cut",
+      "scripts": [
+        "latin"
+      ],
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": 400,
+          "files": {
+            "otf": {
+              "file": "prism-cut-regular.otf",
+              "sha256": "5d3bf1e20d785882455d30eb4123753fdc3140044ae236c139162cdcb1d75ac5",
+              "bytes": 37012
+            },
+            "woff2": {
+              "file": "prism-cut-regular.woff2",
+              "sha256": "ab2d981e6b6daf32385531bf94bcc646dbe263ce51b7a05f66978ef7b9d0b4ce",
+              "bytes": 18264
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascender": 780,
+        "descender": -220,
+        "capHeight": 707,
+        "xHeight": 496
+      },
+      "preview": "specimen.svg",
+      "css": "@font-face {\n  font-family: 'Prism Cut';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./prism-cut-regular.woff2') format('woff2'),\n       url('./prism-cut-regular.otf') format('opentype');\n}\n"
+    },
+    "ivywork": {
+      "slug": "ivywork",
+      "name": "Ivywork",
+      "description": "A botanical Art Nouveau display serif — vine-like stems, terminals curling into tendrils and single leaves.",
+      "tags": [
+        "display",
+        "art-nouveau",
+        "botanical"
+      ],
+      "count": 1,
+      "kind": "font",
+      "license": {
+        "spdx": "OFL-1.1",
+        "attributionRequired": true,
+        "attribution": "Fonts by Artifisio (https://artifisio.com)",
+        "url": "https://openfontlicense.org"
+      },
+      "provenance": {
+        "source": "generated",
+        "model": "gpt-image-2.5-flare"
+      },
+      "family": "Ivywork",
+      "scripts": [
+        "latin"
+      ],
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": 400,
+          "files": {
+            "otf": {
+              "file": "ivywork-regular.otf",
+              "sha256": "7111878888f71c71ff5989cf1f4f42d6a7e85d77f662b311a6d63dccb39a8abc",
+              "bytes": 81576
+            },
+            "woff2": {
+              "file": "ivywork-regular.woff2",
+              "sha256": "5c23556f7062305c12901e044bba8b651bc73c7bd4826285992367b26e8a8580",
+              "bytes": 43124
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascender": 780,
+        "descender": -220,
+        "capHeight": 703,
+        "xHeight": 498
+      },
+      "preview": "specimen.svg",
+      "css": "@font-face {\n  font-family: 'Ivywork';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./ivywork-regular.woff2') format('woff2'),\n       url('./ivywork-regular.otf') format('opentype');\n}\n"
+    },
+    "ironfraktur": {
+      "slug": "ironfraktur",
+      "name": "Ironfraktur",
+      "description": "A brutalist blackletter cut from steel plate — a fraktur skeleton rebuilt in heavy slabs and sharp 45° cuts.",
+      "tags": [
+        "blackletter",
+        "display",
+        "brutalist"
+      ],
+      "count": 1,
+      "kind": "font",
+      "license": {
+        "spdx": "OFL-1.1",
+        "attributionRequired": true,
+        "attribution": "Fonts by Artifisio (https://artifisio.com)",
+        "url": "https://openfontlicense.org"
+      },
+      "provenance": {
+        "source": "generated",
+        "model": "gemini-3.1-flash-image-preview"
+      },
+      "family": "Ironfraktur",
+      "scripts": [
+        "latin"
+      ],
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": 400,
+          "files": {
+            "otf": {
+              "file": "ironfraktur-regular.otf",
+              "sha256": "4fb9111d0ff5dd202d3ac71fe1fd0ada043ddae1af592b61840d0ac1b768eacb",
+              "bytes": 30144
+            },
+            "woff2": {
+              "file": "ironfraktur-regular.woff2",
+              "sha256": "fe87fb5e1ee06f0159424192e92910a0919bd1f1b3d2af23b8a114db5277f6f9",
+              "bytes": 16680
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascender": 780,
+        "descender": -220,
+        "capHeight": 679,
+        "xHeight": 566
+      },
+      "preview": "specimen.svg",
+      "css": "@font-face {\n  font-family: 'Ironfraktur';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./ironfraktur-regular.woff2') format('woff2'),\n       url('./ironfraktur-regular.otf') format('opentype');\n}\n"
+    },
+    "asteria": {
+      "slug": "asteria",
+      "name": "Asteria",
+      "description": "A geometric sans built from circles and straight lines — single-storey a and g, pointed apexes, even monoline strokes.",
+      "tags": [
+        "sans",
+        "geometric",
+        "minimal"
+      ],
+      "count": 1,
+      "kind": "font",
+      "license": {
+        "spdx": "OFL-1.1",
+        "attributionRequired": true,
+        "attribution": "Fonts by Artifisio (https://artifisio.com)",
+        "url": "https://openfontlicense.org"
+      },
+      "provenance": {
+        "source": "generated",
+        "model": "gpt-image-2.5-flare"
+      },
+      "family": "Asteria",
+      "scripts": [
+        "latin"
+      ],
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": 400,
+          "files": {
+            "otf": {
+              "file": "asteria-regular.otf",
+              "sha256": "890872c4c1d644aaf7ad3803ab17901ac7fbe251053a43e9d7e7778b24eee0fe",
+              "bytes": 39856
+            },
+            "woff2": {
+              "file": "asteria-regular.woff2",
+              "sha256": "ece4639e683ec473730482b378eb2895eb741d24990f73730a46a24e2fde17be",
+              "bytes": 22328
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascender": 780,
+        "descender": -220,
+        "capHeight": 670,
+        "xHeight": 534
+      },
+      "preview": "specimen.svg",
+      "css": "@font-face {\n  font-family: 'Asteria';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./asteria-regular.woff2') format('woff2'),\n       url('./asteria-regular.otf') format('opentype');\n}\n"
+    },
+    "vellum-display": {
+      "slug": "vellum-display",
+      "name": "Vellum Display",
+      "description": "A high-contrast Didone display serif for editorial headlines — razor hairlines, flat unbracketed serifs, ball terminals.",
+      "tags": [
+        "serif",
+        "didone",
+        "display"
+      ],
+      "count": 1,
+      "kind": "font",
+      "license": {
+        "spdx": "OFL-1.1",
+        "attributionRequired": true,
+        "attribution": "Fonts by Artifisio (https://artifisio.com)",
+        "url": "https://openfontlicense.org"
+      },
+      "provenance": {
+        "source": "generated",
+        "model": "gpt-image-2.5-flare"
+      },
+      "family": "Vellum Display",
+      "scripts": [
+        "latin"
+      ],
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": 400,
+          "files": {
+            "otf": {
+              "file": "vellum-display-regular.otf",
+              "sha256": "9ef5229ee58510a6520c53ef253ab3f1f13a1376b57045b0b4243df4aa468a65",
+              "bytes": 50608
+            },
+            "woff2": {
+              "file": "vellum-display-regular.woff2",
+              "sha256": "ba6958f2e5138d5a46ecfd21c91cc997c8ffb222fb36482733d969675c12bd85",
+              "bytes": 27184
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascender": 780,
+        "descender": -220,
+        "capHeight": 691,
+        "xHeight": 533
+      },
+      "preview": "specimen.svg",
+      "css": "@font-face {\n  font-family: 'Vellum Display';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./vellum-display-regular.woff2') format('woff2'),\n       url('./vellum-display-regular.otf') format('opentype');\n}\n"
     },
     "circuit-font": {
       "slug": "circuit-font",

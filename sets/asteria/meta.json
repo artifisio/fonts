@@ -1,0 +1,53 @@
+{
+  "slug": "asteria",
+  "name": "Asteria",
+  "description": "A geometric sans built from circles and straight lines — single-storey a and g, pointed apexes, even monoline strokes.",
+  "tags": [
+    "sans",
+    "geometric",
+    "minimal"
+  ],
+  "count": 1,
+  "kind": "font",
+  "license": {
+    "spdx": "OFL-1.1",
+    "attributionRequired": true,
+    "attribution": "Fonts by Artifisio (https://artifisio.com)",
+    "url": "https://openfontlicense.org"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gpt-image-2.5-flare"
+  },
+  "family": "Asteria",
+  "scripts": [
+    "latin"
+  ],
+  "styles": [
+    {
+      "name": "Regular",
+      "weight": 400,
+      "files": {
+        "otf": {
+          "file": "asteria-regular.otf",
+          "sha256": "890872c4c1d644aaf7ad3803ab17901ac7fbe251053a43e9d7e7778b24eee0fe",
+          "bytes": 39856
+        },
+        "woff2": {
+          "file": "asteria-regular.woff2",
+          "sha256": "ece4639e683ec473730482b378eb2895eb741d24990f73730a46a24e2fde17be",
+          "bytes": 22328
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascender": 780,
+    "descender": -220,
+    "capHeight": 670,
+    "xHeight": 534
+  },
+  "preview": "specimen.svg",
+  "css": "@font-face {\n  font-family: 'Asteria';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url('./asteria-regular.woff2') format('woff2'),\n       url('./asteria-regular.otf') format('opentype');\n}\n"
+}

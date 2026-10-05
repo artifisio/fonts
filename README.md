@@ -36,15 +36,21 @@ Every set ships a stylesheet whose `src` URLs are relative, so linking it from t
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/multi-sans/multi-sans.css" />
 ```
 
-Pin to a registry release for reproducible builds: `https://cdn.jsdelivr.net/gh/artifisio/fonts@v2026.10.05-1121-cbf8220/sets/<set-slug>/<file>`.
+Pin to a registry release for reproducible builds: `https://cdn.jsdelivr.net/gh/artifisio/fonts@v2026.10.05-1736-cbf8220/sets/<set-slug>/<file>`.
 
 ---
 
-## Available families (7)
+## Available families (13)
 
 | Name | Slug | Styles | Scripts | Formats | Tags |
 | ---- | ---- | ------ | ------- | ------- | ---- |
 | [Multi Sans](sets/multi-sans) | `multi-sans` | Regular (400) | latin | otf, woff2 | sans, condensed, grotesque, display, headline |
+| [Kreisform](sets/kreisform) | `kreisform` | Regular (400) | latin | otf, woff2 | display, bauhaus, geometric |
+| [Prism Cut](sets/prism-cut) | `prism-cut` | Regular (400) | latin | otf, woff2 | display, geometric, faceted |
+| [Ivywork](sets/ivywork) | `ivywork` | Regular (400) | latin | otf, woff2 | display, art-nouveau, botanical |
+| [Ironfraktur](sets/ironfraktur) | `ironfraktur` | Regular (400) | latin | otf, woff2 | blackletter, display, brutalist |
+| [Asteria](sets/asteria) | `asteria` | Regular (400) | latin | otf, woff2 | sans, geometric, minimal |
+| [Vellum Display](sets/vellum-display) | `vellum-display` | Regular (400) | latin | otf, woff2 | serif, didone, display |
 | [Circuit font](sets/circuit-font) | `circuit-font` | Regular (400) | latin | otf, woff2 |  |
 | [Atrium Flare](sets/atrium-flare) | `atrium-flare` | Regular (400), Bold (700) | latin | otf, woff2 | sans, flare, display |
 | [Inkstick](sets/inkstick) | `inkstick` | Regular (400), Bold (700) | latin | otf, woff2 | handwritten, marker, casual |
@@ -66,7 +72,7 @@ All fonts here are licensed under the [SIL Open Font License 1.1](LICENSE) with 
 
 | Field | Value |
 | --- | --- |
-| Registry version | `2026.10.05-1121-cbf8220` |
+| Registry version | `2026.10.05-1736-cbf8220` |
 | CLI | [`artifisio`](https://www.npmjs.com/package/artifisio) |
 | License | [OFL 1.1](LICENSE) |
 | Other kinds | [`index.json`](index.json) lists every per-kind registry (illustrations, icons) |

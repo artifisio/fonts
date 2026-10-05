@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026.10.05-1736-cbf8220  _(2026-10-05)_
+
+### Added
+
+- `kreisform` (1 styles)
+- `prism-cut` (1 styles)
+- `ivywork` (1 styles)
+- `ironfraktur` (1 styles)
+- `asteria` (1 styles)
+- `vellum-display` (1 styles)
+
+---
+
 ## 2026.10.05-1121-cbf8220  _(2026-10-05)_
 
 _No structural changes; file content or checksums may have been updated._
