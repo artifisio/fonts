@@ -2,9 +2,9 @@
 
 > Free, open-licensed fonts (OFL-1.1) as plain files plus a versioned manifest. Install with the `artifisio` CLI or fetch files straight from the CDN. No account, no runtime dependency.
 
-- Manifest: https://raw.githubusercontent.com/artifisio/fonts/main/manifest.json (schemaVersion 2, registryVersion 2026.10.26-1001-2d9a969)
+- Manifest: https://raw.githubusercontent.com/artifisio/fonts/main/manifest.json (schemaVersion 2, registryVersion 2026.10.27-2126-36700ff)
 - Registry index across kinds: https://raw.githubusercontent.com/artifisio/fonts/main/index.json
-- CDN file pattern: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/<set>/<file>
+- File URL pattern: https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/<set>/<file>
 - Install: `npx artifisio add <set> --kind font` (writes files + ATTRIBUTION.md)
 - Search: `npx artifisio search "<query>" --kind font --json`
 - License: LICENSE in this repo; attribution string is in every set's `license.attribution`.
