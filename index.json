@@ -15,7 +15,7 @@
       "repo": "artifisio/fonts",
       "manifest": "https://raw.githubusercontent.com/artifisio/fonts/main/manifest.json",
       "cdn": "https://cdn.jsdelivr.net/gh/artifisio/fonts@main",
-      "registryVersion": "2026.10.27-2126-36700ff",
+      "registryVersion": "2026.11.02-1213-7f39092",
       "sets": 13
     }
   }

@@ -69,7 +69,7 @@ Each set's stylesheet uses relative `src` URLs, so it works straight from the CD
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/artifisio/fonts@main/sets/multi-sans/multi-sans.css" />
 ```
 
-Swap `@main` for a release tag such as `@v2026.10.27-2126-36700ff` to pin it.
+Swap `@main` for a release tag such as `@v2026.11.02-1213-7f39092` to pin it.
 
 ## License
 
@@ -79,7 +79,7 @@ All fonts here are licensed under [SIL Open Font License 1.1](LICENSE): use, emb
 
 | Field | Value |
 | --- | --- |
-| Registry version | `2026.10.27-2126-36700ff` |
+| Registry version | `2026.11.02-1213-7f39092` |
 | CLI | [`artifisio`](https://www.npmjs.com/package/artifisio) |
 | License | [SIL Open Font License 1.1](LICENSE) |
 | Other kinds | [`index.json`](index.json) lists every per-kind registry (illustrations, icons) |
